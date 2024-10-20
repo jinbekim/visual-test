@@ -1,0 +1,14 @@
+{
+  "name": "visual-regression",
+  "scripts": {
+    "test": "playwright test",
+    "update-screenshots": "playwright test --update-snapshots"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.1",
+    "@types/node": "^22.7.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
